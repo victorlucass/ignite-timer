@@ -46,8 +46,9 @@ table {
 }
 // ------------------ fim reset
 
-*{
+* {
     box-sizing: border-box;
+	box-shadow: none !important;
 }
 
 :focus {
@@ -59,6 +60,7 @@ body, input, textarea, button  {
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
     font-size: 1rem;
+	-webkit-font-smoothing: antialiased;
 }
 
 body {
