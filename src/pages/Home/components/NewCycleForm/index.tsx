@@ -30,7 +30,7 @@ export function NewCycleForm() {
         id="minutesAmount"
         placeholder="00"
         step={5}
-        min={1}
+        min={5}
         max={60}
         disabled={!!activeCycle} // '!!' quer dizer => se tiver um valor converte para true senão para false
         {...register('minutesAmount', { valueAsNumber: true })}
